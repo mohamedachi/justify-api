@@ -6,8 +6,8 @@
   - [Generate Token](#generate-token)
   - [Justify Text](#justify-text)
 - [postman link](#postman-link)
-- [run locally](#run-locally)
 - [test the project](#test-the-project)
+- [run locally](#run-locally)
 
 ## Base URL
 
