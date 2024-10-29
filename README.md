@@ -75,8 +75,10 @@ to test the project:
 - open the link to take you to my workspace
 - create a fork to test the link in your own workspace ,don't worry you won't be doing anything besides clicking send all the test are ready
 ## run locally
+- **install** `npm install`
+- **build** `npm run build`
+- **run** `npm start`
 
-**install** `npm install`
-**build** `npm run build`
-**run** `npm start`
+
+
    
