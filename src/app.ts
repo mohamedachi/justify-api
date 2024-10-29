@@ -5,9 +5,9 @@ import dotenv from 'dotenv';
 dotenv.config();
 const app = express();
 
-// Middleware to parse JSON and plain text
-app.use(express.json());  // Parses application/json
-app.use(express.text());  // Parses text/plain
+
+app.use(express.json()); 
+app.use(express.text());  
 
 app.use('/api', routes);
 

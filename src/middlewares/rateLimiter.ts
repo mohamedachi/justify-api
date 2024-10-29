@@ -6,7 +6,7 @@ export function rateLimiter(req: Request, res: Response, next: NextFunction) {
   const token = req.headers['authorization']?.split(' ')[1];
   if (!token) return res.status(401).json({ error: 'Unauthorized' });
 
-  // Check if req.body is defined and contains text
+
   if (typeof req.body !== 'string' || !req.body.trim()) {
     return res.status(400).json({ error: 'Invalid input. Text is required in the request body.' });
   }
